@@ -1,0 +1,42 @@
+CSS cascading stylesheets
+selector
+declaration block =>property-value pairs
+
+p {
+   property: value;
+   property: value;
+   property: value;
+   property: value; 
+}
+
+#property - what you want to style
+#value - how you want to style
+
+color: red;
+font-size: 20px;
+
+p {
+    color: blue;
+    font-size: 10px;
+}
+
+selector => way of targeting html elements to style
+
+How we :target html elements
+1. universal selector (*)
+* {.....}
+2. element selector
+forms {....}   
+ul {....}
+table{....}
+
+3. id selector
+<img id="cover-image".src="" alt="">
+#cover-image {....}
+4. class selector --different types of elements
+<div class="main-layout"></div>
+<section class="main-layout"></section>
+.main-layout {....}
+
+5.group selector
+a, p, h1, h2, h3 {....}
